@@ -1,4 +1,4 @@
 
 #import <Foundation/Foundation.h>
 
-#import "OMGHTTPURLRQ.h"
+#import "../Sources/OMGHTTPURLRQ.h"
