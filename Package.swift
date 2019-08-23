@@ -7,6 +7,6 @@ let package = Package(
         .library(name: "OMGHTTPURLRQ", targets: ["OMGHTTPURLRQ"])
     ],
     targets: [
-        .target(name: "OMGHTTPURLRQ", path: "Sources", publicHeadersPath: "Sources")
+        .target(name: "OMGHTTPURLRQ", path: ".", sources: ["Sources"], publicHeadersPath: "include")
     ]
 )
